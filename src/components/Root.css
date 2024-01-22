@@ -1,0 +1,20 @@
+
+.main_container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.left-bar{
+  display: flex;
+  flex: 1;
+}
+
+.right-content{
+  display: flex;
+  flex: 7;
+  position: relative;
+  top: 4rem;
+  /* width: 100%; */
+  
+}

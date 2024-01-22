@@ -1,0 +1,35 @@
+.card{
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: inset 0 0 14px #4da0d0;
+  transition-duration: 0.5s;
+}
+
+.card_icon{
+  font-size: 2rem;
+  padding-top: 3px;
+}
+
+.card_name{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card_count{
+  font-size: 1.5rem;
+  border: 1px solid transparent;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+
+/* .card:hover{
+  box-shadow: inset 0 0 4.5rem #4da0d0;
+} */

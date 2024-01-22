@@ -1,0 +1,264 @@
+.container_details{
+  margin-left: 2rem;
+  width: 95%;
+  margin-bottom: 2rem;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+/* .log-btn{
+  background-color: lightskyblue;
+  padding: 4px 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 4rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.log-btn>a{
+  color: black;
+}
+
+.log-btn:hover{
+  box-shadow: 2px 2px 2px grey;
+}
+
+.start-btn{
+  background-color: rgb(106, 211, 106);
+  padding: 0px 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.start-btn:hover{
+  box-shadow: 2px 2px 2px grey;
+}
+
+.stop-btn{
+  background-color: rgb(218, 107, 107);
+  padding: 0px 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.stop-btn:hover{
+  box-shadow: 2px 2px 2px grey;
+} */
+.container_status_flex{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.container_status_table{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-size: 15px;
+  margin-top: 1rem;
+  width: 100%;
+  flex:1;
+  transition-duration: 0.35s;
+}
+
+.container_status_table:hover{
+  box-shadow: inset 0 0 10px #4da0d0;
+}
+
+.container_status_table>table>tr{
+  border-bottom: 0.5px solid lightgrey;
+  height: 3rem;
+  width: 100%;
+}
+
+.container_status_table>table>tr>th{
+  width: 30%;
+  white-space: nowrap;
+}
+
+.container_status_table>table>tr>td{
+  width: 70%;
+}
+
+/* .access_btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.access_btns_right{
+  display: flex;
+  gap: 1rem;
+} */
+
+.container_details_head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5rem;
+}
+.container_details_left{
+  padding-top: 5px ;
+}
+
+.icon_btn{
+  font-size: 1.25rem;
+  padding-top: 2px;
+}
+
+.btn_txt{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn_bar{
+  border: 0.5px solid transparent;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: 1.6rem;
+  padding: 1px;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: rgb(60, 60, 60);
+  border-radius: 6px;
+}
+
+.btn_bar>button{
+  border: none;
+  cursor: pointer;
+  border-right: 0.5px solid white;
+  padding: 0px 8px;
+  background-color: inherit;
+  color: white;
+}
+
+.btn_bar>button.stop_btn{
+  border: none;
+}
+
+.btn_bar_tab{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 2px;
+}
+
+.btn_bar_tab:hover{
+  background-color: black;
+}
+
+.tab_icon{
+  font-size: 1.25rem;
+  padding-top: 3px;
+}
+
+.tab_txt{
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.tab_txt>a{
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.list_icon{
+  font-size: 13px;
+  padding-right: 3px;
+}
+
+.actions_box{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 1rem 1rem;
+}
+
+.actions_tab{
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.actions_icon{
+  font-size: 1.25rem;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  padding: 6px 9px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+.actions_txt{
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.status_heading{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 8px;
+}
+
+.status_icon{
+  font-size: 1.25rem;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  padding: 6px 9px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+.status_txt{
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+  width: fit-content;
+  color: white;
+  background-color: rgb(60, 60, 60);
+  padding: 5px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+
+.top {
+  top: -18px;
+  left: -30%;
+}
+
+.hover-text {
+  position: relative;
+}
+

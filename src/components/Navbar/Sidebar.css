@@ -1,0 +1,37 @@
+
+.side-nav{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 4rem; */
+  width: 12rem;
+  /* height: 100vh; */
+  background-color: rgb(60, 60, 60);
+  color: rgb(230, 230, 230);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 4rem;
+  z-index: 2;
+}
+
+.side-nav>a>div{
+  padding: 1rem 1rem;
+} 
+
+.side-nav>a>div:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.tab{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.icon{
+  font-size: 18px;
+}

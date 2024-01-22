@@ -1,0 +1,62 @@
+.homepage{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.system_details{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-size: 15px;
+  margin-top: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.system_details>table>tr{
+  border-bottom: 0.5px solid lightgrey;
+  height: 3rem;
+  width: 100%;
+}
+
+.system_details>table>tr:hover{
+  background-color: rgb(246, 246, 246);
+}
+
+.system_details>table>tr>th{
+  width: 30%;
+}
+
+.system_details_heading{
+  display: flex;
+  gap: 10px;
+  margin: 0.5rem 0;
+  margin-left: 0.5rem;
+  align-items: center;
+}
+
+.sd_icon{
+  font-size: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 12px 16px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  
+}
+
+.sd_heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
